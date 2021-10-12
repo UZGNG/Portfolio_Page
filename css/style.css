@@ -4,7 +4,7 @@ html{
 }
 
 body{
-    background-color: black;
+    background-color: #0F1921;
 }
 
 h1, h2, h3, h4{
@@ -27,9 +27,21 @@ ul{
     list-style: none;
 }
 
+.card-img-top{
+    width: 600px;
+}
+
+.card-text{
+    color:black;
+}
+
 p, span, h1, h2, h3, li{
     color: white;
     font-family: 'Gemunu Libre', sans-serif;
+}
+
+p{
+    text-align: center;
 }
 
 a{
@@ -38,7 +50,7 @@ a{
 }
 
 button{
-    background-color: black;
+    background-color: #0F1921;
     border: solid 1px white;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -69,4 +81,13 @@ button:hover{
 .about-header{
     margin-bottom: 20px;
 }
+
+.contact-links{
+    text-align: center;
+}
 /* Linear Styling End */ 
+@media (max-width: 771px){
+    .projects-list{
+        display: block;
+    }
+}
