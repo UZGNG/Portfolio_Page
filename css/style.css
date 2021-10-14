@@ -19,6 +19,10 @@ h1, h2, h3, h4{
     text-align: center;
 }
 
+.contact-me p{
+    text-align: center;
+}
+
 /* header{
     margin-left: 450px;
 } */
@@ -42,6 +46,11 @@ p, span, h1, h2, h3, li{
 
 p{
     text-align: center;
+}
+
+.home-pfp{
+    height: 350px;
+    width: 250px;
 }
 
 a{
@@ -86,8 +95,10 @@ button:hover{
     text-align: center;
 }
 /* Linear Styling End */ 
-@media (max-width: 771px){
-    .projects-list{
-        display: block;
+
+@media (max-width: 425px) {
+    .card{
+        margin-top: 50px;
     }
+    
 }
